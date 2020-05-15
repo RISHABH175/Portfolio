@@ -1,0 +1,318 @@
+.navbar-brand
+{
+    font-family: 'Graduate', cursive;
+}
+
+.intro
+{
+
+height: 700px;
+width:750px;
+}
+
+.second:hover
+{
+  border-bottom:5px solid;
+  border-color: black;
+  border-radius: 100px;
+}
+.cs
+{
+padding-top:80px;
+}
+
+.row{
+
+  animation-duration:5s;
+ animation-name: mymove;
+ margin: 0 0;
+ padding: 0 0;
+ }
+
+.col-sm-6
+{
+margin: 0 0;
+padding-top:30px;
+}
+ .navi
+ {
+ background-image:url("https://pixabay.com/get/54e1d3454e5bad14f6d1867dda29317b143dd9ed534c704c7d267fd1954bcd5d_1920.jpg");
+ text-align:center;
+
+ height:100%;
+ width:100%;
+}
+.nav-item:hover
+{
+  transform:skewY(10deg);
+border-bottom:5px solid;
+border-color: black;
+
+}
+
+
+
+img
+{
+
+height:50%;
+width: 50%;
+border-radius:100%;
+}
+.pages
+{
+
+  background-color:white;
+}
+
+
+body
+{
+  margin:0;
+
+
+font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes mymove {
+
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+@keyframes slidein {
+  from {right:-200px;}
+  to {right:0px;}
+
+}
+
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 10%;
+
+}
+
+
+
+
+p
+{
+  color: white;
+
+  text-align:center;
+}
+
+h2
+{
+
+  color:white;
+  font-family: 'Graduate', cursive;
+  text-align:center;
+
+}
+
+
+h3
+{
+
+
+text-align: center;
+  color: white;
+
+
+  font-family: 'Graduate', cursive;
+}
+h4
+{
+
+  color:white;
+  font-family: 'Roboto', sans-serif;
+
+  text-align:center;
+}
+
+.myskill
+{
+  position:relative;
+  bottom: 120px;
+  text-align: center;
+  color:black;
+  font-family: 'Graduate', cursive;
+}
+h1
+{
+color: white;
+text-align: center;
+  /*animation-duration:5s;
+  animation-name:mymove;*/
+  margin: 0 auto;
+  font-size: 70px;
+  padding-top: 100px;
+font-family: 'Trade Winds', cursive;
+}
+
+
+.top
+{
+  animation: mymove 5s;
+  margin:0 0;
+  text-align: center;
+  height:620px;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #ffe0ac;
+}
+
+ .middle-container
+{
+  animation: mymove 5s;
+
+
+   height:700px;
+margin: 0 0;
+  background-color:#b2ebf2;
+}
+
+
+.bottom-container
+{
+  padding: 40px 40px;
+  background-color: #ffe0ac;
+  text-align: center;
+}
+.second
+{
+text-align: center;
+color:black;
+}
+
+
+
+.bottum-cloud
+{
+  position: absolute;
+  left: 200px;
+}
+.top-cloud
+{
+  position: absolute;
+  right:200px;
+  bottom:650px;
+}
+
+.mountain
+{
+  position: absolute;
+  top:300px;
+  right: 430px;
+}
+
+.contact-me
+{
+  text-align: center;
+}
+
+.copy
+{
+
+  font-family: 'Graduate', cursive;
+}
+
+.comp
+{
+position:relative;
+left: 700px;
+top: 70px;
+}
+
+
+.profile
+{
+  background-color:#ffe0ac;
+ background-size: cover;
+font-family: 'Averia Serif Libre', cursive;
+  text-align: center;
+  color:black;
+  width:1550px;
+
+}
+
+.btn{
+
+  display: inline-block;
+  border-radius: 100px;
+    background:black;
+
+
+  color:white;
+  text-align: center;
+  font-size:18px;
+
+
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn:hover
+{
+  border:solid;
+  border-width:10px;
+  border-color:gold;
+}
+
+.footer-link{
+  background: linear-gradient(purple,gold);
+  display: inline-block;
+  border-radius: 100px;
+  border:solid;
+  border-width: 10px;
+  border-color: black;
+  color:white;
+  text-align: center;
+  font-size:18px;
+  padding:20px;
+  width: 200px;
+  height: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.footer-link span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.footer-link span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.footer-link:hover span {
+  padding-right: 25px;
+}
+
+.footer-link:hover span:after {
+  opacity: 1;
+  right: 0;
+}
